@@ -1,12 +1,18 @@
 /** Problem link: https://lightoj.com/problem/greetings-from-lightoj **/
 
-#include <iostream>
-int main(){
+#include <cstdio>
+void raihan();
+int main()
+{
+    raihan();
+    return 0;
+}
+void raihan(){
     int n;
-	std::cin >> n;
+	scanf("%d",&n);
     for(int x=0;x<n;x++){
         int t1,t2;
-        std::cin >> t1 >> t2;
-        std::cout << "Case " << x+1 << ":" << " " <<t1+t2 << "\n";
+        scanf("%d%d",&t1,&t2);
+        printf("Case %d: %d\n",x+1,t1+t2);
     }
 }
