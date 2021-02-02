@@ -1,7 +1,7 @@
 /** Problem link: https://www.hackerrank.com/challenges/staircase/problem **/
 
 #include<iostream>
-
+using namespace std;
 int main()
 {
 	int n;
